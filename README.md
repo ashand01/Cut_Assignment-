@@ -1,1 +1,5 @@
 # Cut_Assignment-
+ +#Ch 4 Cut Exercise
+ +fieldname=$1
+ +cut -f$(getfield $fieldname)
+ cut command is useful if you want to pull commands from other scripts to use in another script
